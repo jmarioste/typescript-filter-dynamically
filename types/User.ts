@@ -3,7 +3,7 @@ export interface User {
   last_name?: string;
   id: number;
   email: string;
-  gender: string;
-  ip_address: string;
-  country?: string;
+  createdAt: string;
+  updatedAt: string;
+  age: number;
 }
